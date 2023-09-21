@@ -28,5 +28,11 @@
     Dentro del contenedor, intentamos hacer ping a google con el siguiente comando: `ping google.com`
     Para cancelar el ping tenemos que presionar Ctr + C
 
+## 5. Crea un contenedor con el nombre 'dam_ubu2'. ¿Puedes hacer ping entre los contenedores?
+
+    Para crear un contenedor con el nombre 'dam_ubu2' utilizamos el comando:
+    `docker run -it --name dam_ubu2 ubuntu`
+    Una vez creado el segundo contenedor para hacer ping entre el primer y el segundo contenedor debemos utilizar el comando `Ping +ip del otro contenedor`
+
 
     
