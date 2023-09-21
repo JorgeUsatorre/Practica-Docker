@@ -17,4 +17,16 @@
 
     Para crear un conetedor utilizamos el comando `docker run -it --name dam_ubu1 ubuntu`. Este comando crea un nuevo contenedor basado en la imagen de Ubuntu y lo nombra como "dam_ubuntu1". El flag -it se utiliza para iniciar el contenedor en modo interactivo para que puedas acceder a la linea de comandos dentro del contenedor. 
 
+
+## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+
+    El primer paso que necesitamos hacer es descargar el net-tools para combrobar la ip. 
+    `apt update` Actualiza la lista de paquetes
+    `apt install net-tools` Instala el net-tools 
+    `ipconfig` Para comprobar la ip
+    
+    Dentro del contenedor, intentamos hacer ping a google con el siguiente comando: `ping google.com`
+    Para cancelar el ping tenemos que presionar Ctr + C
+
+
     
