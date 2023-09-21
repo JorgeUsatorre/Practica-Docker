@@ -38,5 +38,7 @@
 
     Una vez cerrada la terminal el contenedor sigue funcionando correctamente esto lo podemos comprobar poniendo en el tenminal el comando `docker ps` este comando nos dara toda la informcion de todos los contenedores que tenemos.
 
+## 7. ¿Cuanta memoria en el disco duro ocupaste?
 
+    Para ver cuanta memoria del disco se esta utilizando cada contenedor utilizamos podemos utiliza el comando `docker sysytem df -v` este nos proporcionara bastante informacion sobre los contenedores.
     
