@@ -41,4 +41,11 @@
 ## 7. ¿Cuanta memoria en el disco duro ocupaste?
 
     Para ver cuanta memoria del disco se esta utilizando cada contenedor utilizamos podemos utiliza el comando `docker sysytem df -v` este nos proporcionara bastante informacion sobre los contenedores.
-    
+
+
+## 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
+    Si, Docker nos proporciona el comando `docker stats`, este comando nos va a proporcionar diferente informacion de la cantidad de cpu, memoria ram... que estan utilizando los contenedores.
+    En mi caso en el primer contenedor me ocupa un 0.00% tando de CPU como deMemoria Ram.  
+    El segundo contenedor ocupa un 0.00% tando de CPU como de Memoria Ram.
+
