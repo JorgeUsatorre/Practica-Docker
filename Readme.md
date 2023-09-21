@@ -34,5 +34,9 @@
     `docker run -it --name dam_ubu2 ubuntu`
     Una vez creado el segundo contenedor para hacer ping entre el primer y el segundo contenedor debemos utilizar el comando `Ping +ip del otro contenedor`
 
+## 6. Sal del terminal, ¿que ocurrió con el contenedor?
+
+    Una vez cerrada la terminal el contenedor sigue funcionando correctamente esto lo podemos comprobar poniendo en el tenminal el comando `docker ps` este comando nos dara toda la informcion de todos los contenedores que tenemos.
+
 
     
