@@ -13,12 +13,14 @@
 ## 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre.
 
     Para crea un contenedor de Ubuntu con docker utilizamos el comando: `docker run ubuntu` esto nos creara
-    un contenedor de ubuntu con un nombre generado por docker, para saber el nombre de nuestro contenedor necesitamos acceder a la lista de todos nuestros contenedores con el comando: `docker ps -a` en mi caso el contenedor se  llama "jovial_gauss".
+    un contenedor de ubuntu con un nombre generado por docker, para saber el nombre de nuestro contenedor 
+    necesitamos acceder a la lista de todos nuestros contenedores con el comando: `docker ps -a` en mi caso el contenedor se  llama "jovial_gauss".
 
 ## 3. Crea un contenedor con el nombre 'dam_ubu1'. ¿Como puedes acceder a él?
 
     Para crear un conetedor utilizamos el comando `docker run -it --name dam_ubu1 ubuntu`. 
-    Este comando crea un nuevo contenedor basado en la imagen de Ubuntu y lo nombra como "dam_ubuntu1". El flag -it se utiliza para iniciar el contenedor en modo interactivo para que puedas acceder a la linea de comandos dentro del contenedor. 
+    Este comando crea un nuevo contenedor basado en la imagen de Ubuntu y lo nombra como "dam_ubuntu1". 
+    El flag -it se utiliza para iniciar el contenedor en modo interactivo para que puedas acceder a la linea de comandos dentro del contenedor. 
 
 
 ## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
@@ -41,11 +43,12 @@
 ## 6. Sal del terminal, ¿que ocurrió con el contenedor?
 
     Una vez cerrada la terminal el contenedor sigue funcionando correctamente esto lo podemos comprobar 
-    poniendo en el tenminal el comando `docker ps` este comando nos dara toda la informcion de todos los contenedores que tenemos.
+    poniendo en el tenminal el comando `docker ps` este comando nos dara toda la informcion de todos los 
+    contenedores que tenemos.
 
 ## 7. ¿Cuanta memoria en el disco duro ocupaste?
 
-    Para ver cuanta memoria del disco se esta utilizando cada contenedor utilizamos podemos utiliza el comando 
+    Para ver cuanta memoria del disco se esta utilizando cada contenedor utilizamos podemos utiliza el comando
     `docker sysytem df -v` este nos proporcionara bastante informacion sobre los contenedores.
 
 
