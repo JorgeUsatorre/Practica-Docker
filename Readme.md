@@ -6,7 +6,8 @@
 
     `docker pull ubuntu`
 
-    Este comando le indica a Docker que descargue la imagen de Ubuntu de Docker Hub, que es el repositorio oficial de imagenes de Docke.
+    Este comando le indica a Docker que descargue la imagen de Ubuntu de Docker Hub,
+    que es el repositorio oficial de imagenes de Docke.
     Para comprobar si tenemos la imagen descargada podemos utilizar el comando `docker images`
 
 ## 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre.
